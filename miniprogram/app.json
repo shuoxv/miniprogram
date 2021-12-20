@@ -1,11 +1,44 @@
 {
-  "pages": [
-    "pages/home/home",
-    "pages/daily/daily"
-  ],
-  "window": {
-    "navigationBarBackgroundColor": "#cccccc",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "健康信息填报"     
-  }
+    "pages": [
+        "pages/home/home",
+        "pages/img/img",
+        "pages/mine/mine",
+        "pages/search/search"
+
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#cccccc",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "健康信息填报"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "icon/_home.png",
+                "selectedIconPath": "icon/home.png"
+            },
+            {
+                "pagePath": "pages/img/img",
+                "text": "图片",
+                "iconPath": "icon/_img.png",
+                "selectedIconPath": "icon/img.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "icon/_my.png",
+                "selectedIconPath": "icon/my.png"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "搜索",
+                "iconPath": "icon/_search.png",
+                "selectedIconPath": "icon/search.png"
+            }
+        ],
+        "color": "#0094ff"
+    },
+    "sitemapLocation": "sitemap.json"
 }

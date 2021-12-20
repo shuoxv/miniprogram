@@ -6,12 +6,12 @@
         <view class="topitem ">填报日期 :{{currentdate}}</view>
         <view class="inbox">
             <label class="label">上午体温：</label>
-            <input class="dailyinput" type="text"></input>
+            <input bind:input="AMtempinputHandler" class="dailyinput" type="text"></input>
             <text>℃</text>
         </view>
         <view class="inbox">
             <label class="label">下午体温：</label>
-            <input class="dailyinput" type="text"></input>
+            <input bind:input="PMtempinput" class="dailyinput" type="text"></input>
             <text>℃</text>
         </view>
         <view class="page-section">
@@ -26,5 +26,11 @@
         </checkbox-group>
       </view>
     </view>
+    <view>
+      <button class="btn" bind:tap="handleSubmit">提交</button>
+      <button class="btn">关闭</button>
+    </view>
+    
     </view> 
+   
 </view>

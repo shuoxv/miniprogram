@@ -28,3 +28,9 @@
     border-style: solid;
     border-radius: 5px;
 }
+.btn{
+    margin-left: 8px;
+    height:18px;
+    display: inline;
+    width: 25%;
+}
