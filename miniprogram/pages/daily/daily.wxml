@@ -1,0 +1,30 @@
+<view class="layout">
+    <view class="title">
+    <view style="margin-left: 10px;position: relative;top:3px">健康信息填报</view>
+    </view>
+    <view  class="body">
+        <view class="topitem ">填报日期 :{{currentdate}}</view>
+        <view class="inbox">
+            <label class="label">上午体温：</label>
+            <input class="dailyinput" type="text"></input>
+            <text>℃</text>
+        </view>
+        <view class="inbox">
+            <label class="label">下午体温：</label>
+            <input class="dailyinput" type="text"></input>
+            <text>℃</text>
+        </view>
+        <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <checkbox-group bindchange="checkboxChange">
+          <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+            <view class="weui-cell__hd">
+              <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+            </view>
+            <view class="weui-cell__bd">{{item.name}}</view>
+          </label>
+        </checkbox-group>
+      </view>
+    </view>
+    </view> 
+</view>

@@ -1,0 +1,1 @@
+"D:\dataFromxs\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-8gxfa12mda10e9fb --n quickstartFunctions --r --project "D:\dataFromxs\miniprogram" --report_first --report

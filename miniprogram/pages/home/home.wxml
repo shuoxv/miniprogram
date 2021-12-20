@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view>
+    <button class="weui-btn weui-btn_primary" bind:tap="opendaily">每日打卡
+    </button>
+    <button class="weui-btn weui-btn_primary">打卡记录
+    </button>
+    <button class="weui-btn weui-btn_primary">返校承诺书填报
+    </button>
+</view>

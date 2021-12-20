@@ -1,0 +1,30 @@
+/* pages/daily/daily.wxss */
+.layout{
+    margin:2px;
+}
+.body{
+    margin-left: 32px;
+    border-bottom: thin ;
+    font-size: medium;
+}
+.title{
+    background-color:#1d70c2;
+    color:white;
+    font-size:18px;
+    height: 35px;
+}
+.topitem{
+    margin-top: 5%;
+    margin-bottom: 15px;
+}
+.inbox{
+    display:flex;
+    margin-bottom: 15px;
+}
+.dailyinput{
+    width: 55%;
+    border-width:thin ;
+    border-color:thistle;
+    border-style: solid;
+    border-radius: 5px;
+}

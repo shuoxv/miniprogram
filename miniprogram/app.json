@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/daily/daily"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#cccccc",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "健康信息填报"     
+  }
+}
