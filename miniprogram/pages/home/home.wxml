@@ -6,4 +6,13 @@
     </button>
     <button class="weui-btn weui-btn_primary">返校承诺书填报
     </button>
+<button open-type="contact"></button>
+<button open-type="share"></button>
+<button open-type="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo">getUserInfo</button>
+<button open-type="lauchApp">lauchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>
+<button open-type="share">share</button>
+
 </view>

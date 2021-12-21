@@ -1,10 +1,13 @@
 {
     "pages": [
+        "pages/demo17/demo17",
+        "pages/demo16/demo16",
+        "pages/demo15/demo15",
         "pages/home/home",
         "pages/img/img",
         "pages/mine/mine",
         "pages/search/search"
-
+       
     ],
     "window": {
         "navigationBarBackgroundColor": "#cccccc",
